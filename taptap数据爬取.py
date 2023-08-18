@@ -25,7 +25,7 @@ driver = webdriver.Chrome(service=selenium_service, options=chrome_options)
 driver.implicitly_wait(10)  # 设置隐式等待时间，单位为秒
 
 # 打开CSV文件并指定编码方式
-with open('游戏版号.csv', 'r', encoding='utf-8-sig') as file:
+with open('2023游戏号统计.csv', 'r', encoding='utf-8-sig') as file:
     reader = csv.reader(file)
     rows = list(reader)
 
